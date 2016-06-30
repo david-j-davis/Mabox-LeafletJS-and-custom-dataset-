@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Reset / Normalize
+# Libraries / Frameworks
+# Vendor
+# Globals / Variables
+# Patterns
+# Components
+# Responsive
+
+/*--------------------------------------------------------------
+# Reset / Normalize
+--------------------------------------------------------------*/
+
+//@import 'vendor/reset';
+//@import 'vendor/normalize';
+
+/*--------------------------------------------------------------
+# Libraries / Frameworks
+--------------------------------------------------------------*/
+//@import 'compass/css3';
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+// Import custom Bootstrap variables, serving as base styles
+@import "bootstrap-variables";
+// Import Bootstrap for Sass, includes normalize
+@import "bootstrap";
+//@import 'bourbon/bourbon';
+//@import 'base/base';
+//@import 'neat/neat';
+
+/*--------------------------------------------------------------
+# Vendor
+--------------------------------------------------------------*/
+
+//@import 'vendor/slick/slick';
+//@import 'vendor/slick/slick-theme';
+
+/*--------------------------------------------------------------
+# Globals / Variables
+--------------------------------------------------------------*/
+@import 'fonts';
+//@import 'globals';
+//Base Styles
+/* --------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+
+    em {font-style: normal; }
+    i {font-family:"HelvNeueBldItalic", sans-serif; }
+    &.bg-line {
+        display: block;
+        text-align: center;
+        background: url('../img/bg-line.png') no-repeat center center;
+				line-height: 1;
+				font-weight: 400;
+				color:#848484;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    span {font-weight: 700}
+}
+h5 {line-height: 1.5}
+
+ul, ol {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 0;
+  list-style-position: inside;
+  li {margin-bottom: 0}
+}
+a {
+  outline: none;
+	@include transition-property(all);
+  @include transition-duration(0.2s);
+  @include transition-timing-function(ease);
+  &:focus {outline: none}
+}
+blockquote {
+  border: none;
+  font-family: "HelvNeueLtIt";
+  color: $brand-secondary;
+  padding: 10px 0;
+  span {font-family: "HelvNeue", sans-serif; font-weight: 700; margin-top: 1em; display: block;color: $brand-secondary;}
+}
+.btn {
+  padding: 9px 12px 6px 12px;
+}
+.container {
+	@include transition-property(all);
+  @include transition-duration(0.5s);
+  @include transition-timing-function(ease);
+	@include clearfix;
+}
+.page-container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+section {
+	margin-top: 60px;
+	//padding-bottom: 160px;
+}
+.row {
+  &.collapse-margin {
+    margin-left: 0;
+		margin-right: 0;
+  }
+  &.blue-transparent {
+    background:rgba(90,170,250,.6);
+  }
+}
+
+/*--------------------------------------------------------------
+# Patterns
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import 'header';
+@import 'main';
+@import 'footer';
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+
+@import 'responsive';

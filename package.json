@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "pug": "pug src/templates -o public/ --pretty",
+    "scss": "node-sass --output-style expanded --indent-type tab --indent-width 1 -o public/css src/styles/",
+    "autoprefixer": "postcss --use autoprefixer -r public/css/styles.css public/css/styles.css",
+    "imagemin": "imagemin images public/img -p",
+    "serve": "browser-sync start --proxy dev-yoursite.com --files 'public/**/*'",
+    "build:images": "npm run imagemin",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:pug": "npm run pug",
+    "build:all": "npm run build:css && npm run build:images",
+    "watch:images": "onchange 'images' -- npm run build:images",
+    "watch:css": "onchange 'src/styles/**/*.scss' -- npm run build:css",
+    "watch:pug": "onchange 'src/templates/**/*.pug' -- npm run build:pug",
+    "watch:all": "parallelshell 'npm run serve' 'npm run watch:css' 'npm run watch:images' 'npm run watch:pug'",
+    "postinstall": "npm run watch:all"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.11.1",
+    "imagemin-cli": "^2.1.0",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.4.0",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.5.1",
+    "pug": "^2.0.0-beta3"
+  }
+}
