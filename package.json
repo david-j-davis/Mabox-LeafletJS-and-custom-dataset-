@@ -5,19 +5,20 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "pug": "pug src/templates -o public/ --pretty",
     "scss": "node-sass --output-style expanded --indent-type tab --indent-width 1 -o public/css src/styles/",
     "autoprefixer": "postcss --use autoprefixer -r public/css/styles.css public/css/styles.css",
     "imagemin": "imagemin src/images public/img -p",
-    "serve": "browser-sync start --proxy dev-yoursite.com --files 'public/**/*'",
+    "js": "uglifyjs src/scripts/*.js -b -o public/js/main.js",
+    "server": "node index.js",
+    "serve": "browser-sync start --files 'public/**/*'",
     "build:images": "npm run imagemin",
     "build:css": "npm run scss && npm run autoprefixer",
-    "build:pug": "npm run pug",
+    "build:js": "npm run js",
     "build:all": "npm run build:css && npm run build:images",
     "watch:images": "onchange 'src/images' -- npm run build:images",
     "watch:css": "onchange 'src/styles/**/*.scss' -- npm run build:css",
-    "watch:pug": "onchange 'src/templates/**/*.pug' -- npm run build:pug",
-    "watch:all": "parallelshell 'npm run serve' 'npm run watch:css' 'npm run watch:images' 'npm run watch:pug'",
+    "watch:js": "onchange 'src/scripts/**/*.js' -- npm run build:js",
+    "watch:all": "parallelshell 'npm run server' 'npm run serve' 'npm run watch:css' 'npm run watch:images' 'npm run watch:js'",
     "postinstall": "npm run watch:all"
   },
   "devDependencies": {
@@ -28,6 +29,10 @@
     "onchange": "^2.4.0",
     "parallelshell": "^2.0.0",
     "postcss-cli": "^2.5.1",
-    "pug": "^2.0.0-beta3"
+    "uglify-js": "^2.7.4"
+  },
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "express": "^4.14.0"
   }
 }

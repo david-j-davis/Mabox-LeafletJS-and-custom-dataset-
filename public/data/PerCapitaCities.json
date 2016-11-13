@@ -1,0 +1,452 @@
+[
+  {
+    "City": 1,
+    "State": "El Paso, Texas",
+    "Sum of #  of plans": 160,
+    "Population": 679036,
+    "Per Capita": 4243.975,
+    "Latitude": 31.7618778,
+    "Longitude": -106.4850217
+  },
+  {
+    "City": 2,
+    "State": "Detroit, Michigan",
+    "Sum of #  of plans": 233,
+    "Population": 680250,
+    "Per Capita": 2919.527897,
+    "Latitude": 42.331427,
+    "Longitude": -83.0457538
+  },
+  {
+    "City": 3,
+    "State": "Mesa, Arizona",
+    "Sum of #  of plans": 160,
+    "Population": 464704,
+    "Per Capita": 2904.4,
+    "Latitude": 33.4151843,
+    "Longitude": -111.8314724
+  },
+  {
+    "City": 4,
+    "State": "Los Angeles, California",
+    "Sum of #  of plans": 1633,
+    "Population": 3928864,
+    "Per Capita": 2405.917942,
+    "Latitude": 34.0522342,
+    "Longitude": -118.2436849
+  },
+  {
+    "City": 5,
+    "State": "Arlington, Texas",
+    "Sum of #  of plans": 164,
+    "Population": 383204,
+    "Per Capita": 2336.609756,
+    "Latitude": 32.735687,
+    "Longitude": -97.1080656
+  },
+  {
+    "City": 6,
+    "State": "San Antonio, Texas",
+    "Sum of #  of plans": 746,
+    "Population": 1436697,
+    "Per Capita": 1925.867292,
+    "Latitude": 29.4241219,
+    "Longitude": -98.4936282
+  },
+  {
+    "City": 7,
+    "State": "Long Beach, California",
+    "Sum of #  of plans": 246,
+    "Population": 473577,
+    "Per Capita": 1925.109756,
+    "Latitude": 33.7700504,
+    "Longitude": -118.1937395
+  },
+  {
+    "City": 8,
+    "State": "New York City, New York",
+    "Sum of #  of plans": 4946,
+    "Population": 8491079,
+    "Per Capita": 1716.756773,
+    "Latitude": 40.7127837,
+    "Longitude": -74.0059413
+  },
+  {
+    "City": 9,
+    "State": "Jacksonville, Florida",
+    "Sum of #  of plans": 537,
+    "Population": 853382,
+    "Per Capita": 1589.165736,
+    "Latitude": 30.3321838,
+    "Longitude": -81.655651
+  },
+  {
+    "City": 10,
+    "State": "Philadelphia, Pennsylvania",
+    "Sum of #  of plans": 995,
+    "Population": 1560297,
+    "Per Capita": 1568.137688,
+    "Latitude": 39.9525839,
+    "Longitude": -75.1652215
+  },
+  {
+    "City": 11,
+    "State": "Fort Worth, Texas",
+    "Sum of #  of plans": 527,
+    "Population": 812238,
+    "Per Capita": 1541.248577,
+    "Latitude": 32.7554883,
+    "Longitude": -97.3307658
+  },
+  {
+    "City": 12,
+    "State": "Phoenix, Arizona",
+    "Sum of #  of plans": 1009,
+    "Population": 1537058,
+    "Per Capita": 1523.347869,
+    "Latitude": 33.4483771,
+    "Longitude": -112.0740373
+  },
+  {
+    "City": 13,
+    "State": "Colorado Springs, Colorado",
+    "Sum of #  of plans": 308,
+    "Population": 445830,
+    "Per Capita": 1447.5,
+    "Latitude": 38.8338816,
+    "Longitude": -104.8213634
+  },
+  {
+    "City": 14,
+    "State": "San Jose, California",
+    "Sum of #  of plans": 766,
+    "Population": 1015785,
+    "Per Capita": 1326.090078,
+    "Latitude": 37.3382082,
+    "Longitude": -121.8863286
+  },
+  {
+    "City": 15,
+    "State": "Las Vegas, Nevada",
+    "Sum of #  of plans": 464,
+    "Population": 613599,
+    "Per Capita": 1322.411638,
+    "Latitude": 36.1699412,
+    "Longitude": -115.1398296
+  },
+  {
+    "City": 16,
+    "State": "Virginia Beach, Virginia",
+    "Sum of #  of plans": 352,
+    "Population": 450980,
+    "Per Capita": 1281.193182,
+    "Latitude": 36.8529263,
+    "Longitude": -75.977985
+  },
+  {
+    "City": 17,
+    "State": "Baltimore, Maryland",
+    "Sum of #  of plans": 506,
+    "Population": 622793,
+    "Per Capita": 1230.816206,
+    "Latitude": 39.2903848,
+    "Longitude": -76.6121893
+  },
+  {
+    "City": 18,
+    "State": "Tucson, Arizona",
+    "Sum of #  of plans": 438,
+    "Population": 527972,
+    "Per Capita": 1205.415525,
+    "Latitude": 32.2217429,
+    "Longitude": -110.926479
+  },
+  {
+    "City": 19,
+    "State": "Chicago, Illinois",
+    "Sum of #  of plans": 2407,
+    "Population": 2722389,
+    "Per Capita": 1131.029913,
+    "Latitude": 41.8781136,
+    "Longitude": -87.6297982
+  },
+  {
+    "City": 20,
+    "State": "Oakland, California",
+    "Sum of #  of plans": 373,
+    "Population": 413775,
+    "Per Capita": 1109.316354,
+    "Latitude": 37.8043637,
+    "Longitude": -122.2711137
+  },
+  {
+    "City": 21,
+    "State": "Memphis, Tennessee",
+    "Sum of #  of plans": 594,
+    "Population": 656860,
+    "Per Capita": 1105.824916,
+    "Latitude": 35.1495343,
+    "Longitude": -90.0489801
+  },
+  {
+    "City": 22,
+    "State": "Albuquerque, New Mexico",
+    "Sum of #  of plans": 504,
+    "Population": 557169,
+    "Per Capita": 1105.494048,
+    "Latitude": 35.0853336,
+    "Longitude": -106.6055534
+  },
+  {
+    "City": 23,
+    "State": "Fresno, California",
+    "Sum of #  of plans": 476,
+    "Population": 515986,
+    "Per Capita": 1084.004202,
+    "Latitude": 36.7468422,
+    "Longitude": -119.7725868
+  },
+  {
+    "City": 24,
+    "State": "San Diego, California",
+    "Sum of #  of plans": 1307,
+    "Population": 1381069,
+    "Per Capita": 1056.671002,
+    "Latitude": 32.715738,
+    "Longitude": -117.1610838
+  },
+  {
+    "City": 25,
+    "State": "Nashville, Tennessee",
+    "Sum of #  of plans": 628,
+    "Population": 644014,
+    "Per Capita": 1025.5,
+    "Latitude": 36.1626638,
+    "Longitude": -86.7816016
+  },
+  {
+    "City": 26,
+    "State": "Oklahoma City, Oklahoma",
+    "Sum of #  of plans": 668,
+    "Population": 620602,
+    "Per Capita": 929.0449102,
+    "Latitude": 35.4675602,
+    "Longitude": -97.5164276
+  },
+  {
+    "City": 27,
+    "State": "New Orleans, Louisiana",
+    "Sum of #  of plans": 418,
+    "Population": 384320,
+    "Per Capita": 919.4258373,
+    "Latitude": 29.9510658,
+    "Longitude": -90.0715323
+  },
+  {
+    "City": 28,
+    "State": "Charlotte, North Carolina",
+    "Sum of #  of plans": 897,
+    "Population": 809958,
+    "Per Capita": 902.9632107,
+    "Latitude": 35.2270869,
+    "Longitude": -80.8431267
+  },
+  {
+    "City": 29,
+    "State": "Columbus, Ohio",
+    "Sum of #  of plans": 938,
+    "Population": 835957,
+    "Per Capita": 891.2121535,
+    "Latitude": 39.9611755,
+    "Longitude": -82.9987942
+  },
+  {
+    "City": 30,
+    "State": "Austin, Texas",
+    "Sum of #  of plans": 1042,
+    "Population": 912791,
+    "Per Capita": 875.9990403,
+    "Latitude": 30.267153,
+    "Longitude": -97.7430608
+  },
+  {
+    "City": 31,
+    "State": "Wichita, Kansas",
+    "Sum of #  of plans": 476,
+    "Population": 388413,
+    "Per Capita": 815.9936975,
+    "Latitude": 37.6871761,
+    "Longitude": -97.330053
+  },
+  {
+    "City": 32,
+    "State": "Dallas, Texas",
+    "Sum of #  of plans": 1574,
+    "Population": 1281047,
+    "Per Capita": 813.8799238,
+    "Latitude": 32.7766642,
+    "Longitude": -96.7969879
+  },
+  {
+    "City": 33,
+    "State": "Indianapolis, Indiana",
+    "Sum of #  of plans": 1073,
+    "Population": 848788,
+    "Per Capita": 791.0419385,
+    "Latitude": 39.768403,
+    "Longitude": -86.158068
+  },
+  {
+    "City": 34,
+    "State": "Raleigh, North Carolina",
+    "Sum of #  of plans": 562,
+    "Population": 439896,
+    "Per Capita": 782.7330961,
+    "Latitude": 35.7795897,
+    "Longitude": -78.6381787
+  },
+  {
+    "City": 35,
+    "State": "Sacramento, California",
+    "Sum of #  of plans": 623,
+    "Population": 485199,
+    "Per Capita": 778.8105939,
+    "Latitude": 38.5815719,
+    "Longitude": -121.4943996
+  },
+  {
+    "City": 36,
+    "State": "Kansas City, Missouri",
+    "Sum of #  of plans": 638,
+    "Population": 470800,
+    "Per Capita": 737.9310345,
+    "Latitude": 39.0997265,
+    "Longitude": -94.5785667
+  },
+  {
+    "City": 37,
+    "State": "Milwaukee, Wisconsin",
+    "Sum of #  of plans": 813,
+    "Population": 599642,
+    "Per Capita": 737.5670357,
+    "Latitude": 43.0389025,
+    "Longitude": -87.9064736
+  },
+  {
+    "City": 38,
+    "State": "Houston, Texas",
+    "Sum of #  of plans": 3091,
+    "Population": 2239558,
+    "Per Capita": 724.5415723,
+    "Latitude": 29.7604267,
+    "Longitude": -95.3698028
+  },
+  {
+    "City": 39,
+    "State": "Louisville, Kentucky",
+    "Sum of #  of plans": 886,
+    "Population": 612780,
+    "Per Capita": 691.6252822,
+    "Latitude": 38.2526647,
+    "Longitude": -85.7584557
+  },
+  {
+    "City": 40,
+    "State": "Tulsa, Oklahoma",
+    "Sum of #  of plans": 642,
+    "Population": 399682,
+    "Per Capita": 622.5576324,
+    "Latitude": 36.1539816,
+    "Longitude": -95.992775
+  },
+  {
+    "City": 41,
+    "State": "Boston, Massachusetts",
+    "Sum of #  of plans": 1070,
+    "Population": 655884,
+    "Per Capita": 612.9757009,
+    "Latitude": 42.3600825,
+    "Longitude": -71.0588801
+  },
+  {
+    "City": 42,
+    "State": "Omaha, Nebraska",
+    "Sum of #  of plans": 748,
+    "Population": 446599,
+    "Per Capita": 597.0574866,
+    "Latitude": 41.2523634,
+    "Longitude": -95.9979883
+  },
+  {
+    "City": 43,
+    "State": "San Francisco, California",
+    "Sum of #  of plans": 1522,
+    "Population": 852469,
+    "Per Capita": 560.0978975,
+    "Latitude": 37.7749295,
+    "Longitude": -122.4194155
+  },
+  {
+    "City": 44,
+    "State": "Denver, Colorado",
+    "Sum of #  of plans": 1222,
+    "Population": 663862,
+    "Per Capita": 543.2585925,
+    "Latitude": 39.7392358,
+    "Longitude": -104.990251
+  },
+  {
+    "City": 45,
+    "State": "Seattle, Washington",
+    "Sum of #  of plans": 1290,
+    "Population": 668342,
+    "Per Capita": 518.0945736,
+    "Latitude": 47.6062095,
+    "Longitude": -122.3320708
+  },
+  {
+    "City": 46,
+    "State": "Washington, Washington D.C.",
+    "Sum of #  of plans": 1316,
+    "Population": 658893,
+    "Per Capita": 500.6785714,
+    "Latitude": 40.17396,
+    "Longitude": -80.2461714
+  },
+  {
+    "City": 47,
+    "State": "Portland, Oregon",
+    "Sum of #  of plans": 1345,
+    "Population": 619360,
+    "Per Capita": 460.4907063,
+    "Latitude": 45.5230622,
+    "Longitude": -122.6764816
+  },
+  {
+    "City": 48,
+    "State": "Miami, Florida",
+    "Sum of #  of plans": 995,
+    "Population": 430332,
+    "Per Capita": 432.4944724,
+    "Latitude": 25.7616798,
+    "Longitude": -80.1917902
+  },
+  {
+    "City": 49,
+    "State": "Cleveland, Ohio",
+    "Sum of #  of plans": 930,
+    "Population": 389521,
+    "Per Capita": 418.8397849,
+    "Latitude": 41.49932,
+    "Longitude": -81.6943605
+  },
+  {
+    "City": 50,
+    "State": "Atlanta, Georgia",
+    "Sum of #  of plans": 1469,
+    "Population": 456002,
+    "Per Capita": 310.4166099,
+    "Latitude": 33.7489954,
+    "Longitude": -84.3879824
+  }
+];
