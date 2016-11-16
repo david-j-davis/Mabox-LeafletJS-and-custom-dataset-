@@ -11,4 +11,4 @@ via npm:
 $ npm install
 ```
 
-(View working example)[http://codepen.io/david-j-davis/pen/NbqGQv]
+[View working example](http://codepen.io/david-j-davis/pen/NbqGQv)
